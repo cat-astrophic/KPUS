@@ -2534,16 +2534,32 @@ pc6 <- pleather(dataframe = control.data.ag.no2, treat.id = 55, iterations = 100
 
 png(paste(direc, 'figures/kp_boot.png', sep = ''))
 par(mfrow = c(2,3))
-pk1 + pk2 + pk3 + pk4 + pk5 + pk6 + plot_layout(ncol = 2)
+pk1[[5]] + pk2[[5]] + pk3[[5]] + pk4[[5]] + pk5[[5]] + pk6[[5]] + plot_layout(ncol = 2)
 dev.off()
 
 png(paste(direc, 'figures/non_kp_boot.png', sep = ''))
 par(mfrow = c(2,3))
-pc1 + pc2 + pc3 + pc4 + pc5 + pc6 + plot_layout(ncol = 2)
+pc1[[5]] + pc2[[5]] + pc3[[5]] + pc4[[5]] + pc5[[5]] + pc6[[5]] + plot_layout(ncol = 2)
 dev.off()
 
-pk1 + pk2 + pk3 + pk4 + pk5 + pk6 + plot_layout(ncol = 2)
-pc1 + pc2 + pc3 + pc4 + pc5 + pc6 + plot_layout(ncol = 2)
+pk1[[5]] + pk2[[5]] + pk3[[5]] + pk4[[5]] + pk5[[5]] + pk6[[5]] + plot_layout(ncol = 2)
+pc1[[5]] + pc2[[5]] + pc3[[5]] + pc4[[5]] + pc5[[5]] + pc6[[5]] + plot_layout(ncol = 2)
+
+# Writing significance test results to file
+
+write.csv(pk1[[2]], paste0(direc, 'results/kp_ghg.txt'))
+write.csv(pk2[[2]], paste0(direc, 'results/kp_co2.txt'))
+write.csv(pk3[[2]], paste0(direc, 'results/kp_ch4.txt'))
+write.csv(pk4[[2]], paste0(direc, 'results/kp_no2.txt'))
+write.csv(pk5[[2]], paste0(direc, 'results/kp_ag_ch4.txt'))
+write.csv(pk6[[2]], paste0(direc, 'results/kp_ag_no2.txt'))
+
+write.csv(pc1[[2]], paste0(direc, 'results/non_kp_ghg.txt'))
+write.csv(pc2[[2]], paste0(direc, 'results/non_kp_co2.txt'))
+write.csv(pc3[[2]], paste0(direc, 'results/non_kp_ch4.txt'))
+write.csv(pc4[[2]], paste0(direc, 'results/non_kp_no2.txt'))
+write.csv(pc5[[2]], paste0(direc, 'results/non_kp_ag_ch4.txt'))
+write.csv(pc6[[2]], paste0(direc, 'results/non_kp_ag_no2.txt'))
 
 # Cute summary stats table
 
