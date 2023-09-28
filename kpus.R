@@ -934,7 +934,7 @@ ggplot(data = ghg.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 png(paste(direc, 'figures/kp_placebo_co2.png', sep = ''))
@@ -963,7 +963,7 @@ ggplot(data = ghg.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 png(paste(direc, 'figures/kp_placebo_ch4.png', sep = ''))
@@ -992,7 +992,7 @@ ggplot(data = ch4.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 png(paste(direc, 'figures/kp_placebo_no2.png', sep = ''))
@@ -1021,7 +1021,7 @@ ggplot(data = no2.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 png(paste(direc, 'figures/kp_placebo_ag_ch4.png', sep = ''))
@@ -1050,7 +1050,7 @@ ggplot(data = ag.ch4.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 png(paste(direc, 'figures/kp_placebo_ag_no2.png', sep = ''))
@@ -1079,7 +1079,7 @@ ggplot(data = ag.no2.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 # Placebo testing for non-KP nations
@@ -1279,7 +1279,7 @@ ggplot(data = c.ghg.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 png(paste(direc, 'figures/non_kp_placebo_co2.png', sep = ''))
@@ -1346,7 +1346,7 @@ ggplot(data = c.co2.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 png(paste(direc, 'figures/non_kp_placebo_ch4.png', sep = ''))
@@ -1413,7 +1413,7 @@ ggplot(data = c.ch4.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 png(paste(direc, 'figures/non_kp_placebo_no2.png', sep = ''))
@@ -1480,7 +1480,7 @@ ggplot(data = c.no2.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 png(paste(direc, 'figures/non_kp_placebo_ag_ch4.png', sep = ''))
@@ -1547,7 +1547,7 @@ ggplot(data = c.ag.ch4.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 png(paste(direc, 'figures/non_kp_placebo_ag_no2.png', sep = ''))
@@ -1614,7 +1614,7 @@ ggplot(data = c.ag.no2.plot.df, aes(x = Year, y = `United States`)) +
   geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 dev.off()
 
 # Creating multiplots as an alternative for the paper
@@ -1714,7 +1714,7 @@ f1 <- ggplot(data = ghg.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-      geom_vline(xintercept = 2004)
+      geom_vline(xintercept = 2005)
 
 f2 <- ggplot(data = ghg.plot.df, aes(x = Year, y = `United States`)) +
       ggtitle('Placebo Test Results for Carbon Dioxide Emissions') +
@@ -1741,7 +1741,7 @@ f2 <- ggplot(data = ghg.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-      geom_vline(xintercept = 2004)
+      geom_vline(xintercept = 2005)
 
 f3 <- ggplot(data = ch4.plot.df, aes(x = Year, y = `United States`)) +
       ggtitle('Placebo Test Results for Methane Emissions') +
@@ -1768,7 +1768,7 @@ f3 <- ggplot(data = ch4.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-      geom_vline(xintercept = 2004)
+      geom_vline(xintercept = 2005)
 
 f4 <- ggplot(data = no2.plot.df, aes(x = Year, y = `United States`)) +
       ggtitle('Placebo Test Results for Nitrous Oxide Emissions') +
@@ -1795,7 +1795,7 @@ f4 <- ggplot(data = no2.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-      geom_vline(xintercept = 2004)
+      geom_vline(xintercept = 2005)
 
 f5 <- ggplot(data = ag.ch4.plot.df, aes(x = Year, y = `United States`)) +
       ggtitle('Placebo Test Results for Methane Emissions from Agriculture') +
@@ -1822,7 +1822,7 @@ f5 <- ggplot(data = ag.ch4.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-      geom_vline(xintercept = 2004)
+      geom_vline(xintercept = 2005)
 
 f6 <- ggplot(data = ag.no2.plot.df, aes(x = Year, y = `United States`)) +
       ggtitle('Placebo Test Results for Nitrous Oxide Emissions from Agriculture') +
@@ -1849,7 +1849,7 @@ f6 <- ggplot(data = ag.no2.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  geom_vline(xintercept = 2004)
+  geom_vline(xintercept = 2005)
 
 png(paste(direc, 'figures/kp_placebo.png', sep = ''))
 par(mfrow = c(2,3))
@@ -1922,7 +1922,7 @@ f1 <- ggplot(data = c.ghg.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-      geom_vline(xintercept = 2004)
+      geom_vline(xintercept = 2005)
 
 f2 <- ggplot(data = c.co2.plot.df, aes(x = Year, y = `United States`)) +
       ggtitle('Placebo Test Results for Carbon Dioxide Emissions') +
@@ -1988,7 +1988,7 @@ f2 <- ggplot(data = c.co2.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-      geom_vline(xintercept = 2004)
+      geom_vline(xintercept = 2005)
 
 f3 <- ggplot(data = c.ch4.plot.df, aes(x = Year, y = `United States`)) +
       ggtitle('Placebo Test Results for Methane Emissions') +
@@ -2054,7 +2054,7 @@ f3 <- ggplot(data = c.ch4.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-      geom_vline(xintercept = 2004)
+      geom_vline(xintercept = 2005)
 
 f4 <- ggplot(data = c.no2.plot.df, aes(x = Year, y = `United States`)) +
       ggtitle('Placebo Test Results for Nitrous Oxide Emissions') +
@@ -2120,7 +2120,7 @@ f4 <- ggplot(data = c.no2.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-      geom_vline(xintercept = 2004)
+      geom_vline(xintercept = 2005)
 
 f5 <- ggplot(data = c.ag.ch4.plot.df, aes(x = Year, y = `United States`)) +
       ggtitle('Placebo Test Results for Methane Emissions from Agriculture') +
@@ -2186,7 +2186,7 @@ f5 <- ggplot(data = c.ag.ch4.plot.df, aes(x = Year, y = `United States`)) +
       geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
       theme(plot.title = element_text(hjust = 0.5)) +
       scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-      geom_vline(xintercept = 2004)
+      geom_vline(xintercept = 2005)
 
 f6 <- ggplot(data = c.ag.no2.plot.df, aes(x = Year, y = `United States`)) +
     ggtitle('Placebo Test Results for Nitrous Oxide Emissions from Agriculture') +
@@ -2252,7 +2252,7 @@ f6 <- ggplot(data = c.ag.no2.plot.df, aes(x = Year, y = `United States`)) +
     geom_line(aes(x = Year, y = `United States`), size = 1, alpha = 1, color = 'black') +
     theme(plot.title = element_text(hjust = 0.5)) +
     scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
-    geom_vline(xintercept = 2004)
+    geom_vline(xintercept = 2005)
 
 png(paste(direc, 'figures/non_kp_placebo.png', sep = ''))
 par(mfrow = c(2,3))
@@ -2607,4 +2607,33 @@ for (c in colnames(kp.sumdata)) {
 }
 
 kpx <- as.data.frame(cbind(colnames(kp.sumdata), means.kp, means.nonkp, means.us, sds.kp, sds.nonkp, sds.us))
+
+# Simulation to create a figure motiviating the method
+
+m <- c(1,1.03,1.06,1.09,1.12,1.15,1.18,1.21,1.24,1.27,1.3,1.33,1.36,1.39,1.42,1.45,1.45,1.45,1.45,1.45,1.45,1.45,1.45,1.45,1.45,1.45,1.45,1.45,1.45,1.45)
+s <- c(.05,.054,.056,.051,.044,.058,.06,.048,.055,.054,.062,.064,.06,.054,.05,.047,.06,.07,.075,.08,.086,.099,.12,.16,.2,.28,.28,.3,.33,.32)
+t <- 1990:2019
+a <- c(1,1.033,1.056,1.091,1.14,1.152,1.188,1.24,1.242,1.26,1.2666,1.302,1.34,1.382,1.4227,1.453,1.458,1.487,1.4974,1.498,1.527,1.512,1.544,1.561,1.573,1.598,1.627,1.614,1.633,1.65)
+
+eg <- as.data.frame(cbind(m,s,a,t))
+
+egf <- ggplot(data = eg, aes(x = t, y = a)) +
+  ggtitle('Example of an Insigificant Deviation') +
+  xlab('Year') +
+  ylab('Relative to 1990') +
+  geom_line(aes(y = m, col = '95% Confidence Interval'), size = 2, alpha = 1) +
+  geom_ribbon(aes(ymin = m - 2*s, ymax = m + 2*s), fill = 'lightgray') +
+  geom_line(aes(y = m, col = 'Synthetic Control'), size = 1, alpha = 1, linetype = 2) +
+  geom_line(aes(y = a, col = '"Treated" Unit'), size = 1, alpha = 1) +
+  scale_color_manual(name = '', breaks = c('"Treated" Unit', 'Synthetic Control', '95% Confidence Interval'), values = c('red4', 'black', 'lightgray')) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
+  geom_vline(xintercept = 2005) +
+  ylim(0,2.5)
+
+png(paste(direc, 'figures/silly_willy.png', sep = ''))
+egf
+dev.off()
+
+egf
 
