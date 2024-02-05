@@ -1,4 +1,4 @@
-# This script performs the econometrics analysis for the US + KP paper
+# This script performs the econometrics analysis for the US + KP paper without imputed data
 
 # Loading libraries
 
@@ -82,6 +82,7 @@ lag.no2.ag <- c()
 for (i in 1:dim(data)[1]) {
 
   tmp.df <- data[which(data$Country.Name == data$Country.Name[i] & data$Year == 1990),]
+  
   gdp <- c(gdp, data$GDP..constant.2015.US..[i] / tmp.df$GDP..constant.2015.US..[1])
   gdp.pc <- c(gdp.pc, data$GDP.per.capita..constant.2015.US..[i] / tmp.df$GDP.per.capita..constant.2015.US..[1])
   pop <- c(pop, data$Population..total[i] / tmp.df$Population..total[1])
@@ -128,7 +129,7 @@ data$NO2.Lag <- lag.no2
 data$AG.CH4.Lag <- lag.ch4.ag
 data$AG.NO2.Lag <- lag.no2.ag
 
-# Subset for 1991 - 2019
+# Subset for 1990 - 2019
 
 data <- data[which(data$Year %in% 1990:2019),]
 
