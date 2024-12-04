@@ -14,12 +14,12 @@ Cary, Michael. "Post-Kyoto emissions in the United States." *Renewable and Susta
 
 ### Bibtex
 
-@article{cary2025post,
-&nbsp;&nbsp;&nbsp;&nbsp;title={Post-Kyoto emissions in the United States},
-&nbsp;&nbsp;&nbsp;&nbsp;author={Cary, Michael},
-&nbsp;&nbsp;&nbsp;&nbsp;journal={Renewable and Sustainable Energy Reviews},
-&nbsp;&nbsp;&nbsp;&nbsp;volume={209},
-&nbsp;&nbsp;&nbsp;&nbsp;pages={115068},
-&nbsp;&nbsp;&nbsp;&nbsp;year={2025},
-&nbsp;&nbsp;&nbsp;&nbsp;publisher={Elsevier}
+@article{cary2025post,\
+&nbsp;&nbsp;&nbsp;&nbsp;title={Post-Kyoto emissions in the United States},\
+&nbsp;&nbsp;&nbsp;&nbsp;author={Cary, Michael},\
+&nbsp;&nbsp;&nbsp;&nbsp;journal={Renewable and Sustainable Energy Reviews},\
+&nbsp;&nbsp;&nbsp;&nbsp;volume={209},\
+&nbsp;&nbsp;&nbsp;&nbsp;pages={115068},\
+&nbsp;&nbsp;&nbsp;&nbsp;year={2025},\
+&nbsp;&nbsp;&nbsp;&nbsp;publisher={Elsevier}\
 }
